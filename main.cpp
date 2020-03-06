@@ -8,13 +8,21 @@
 #include <unistd.h>
 #include <cstring>
 #define PORT 4444
+#define default_buffer_size 10000
 
 int main(int argc, char const *argv[])
 {
+    if (argc != 2) {
+        printf("Usage: please provide one argument\n"
+               "\targv[1]: a JSON-format data (String)"
+               "\n");
+        return -1;
+    }
+
     int sock = 0;
     struct sockaddr_in server_addr{};
-    char *hello = "Hello from client";
-    char buffer[1024] = {0};
+
+    char returnedJSONData[default_buffer_size] = {0};
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
         printf("\n Socket creation error \n");
@@ -36,9 +44,10 @@ int main(int argc, char const *argv[])
         printf("\nConnection Failed \n");
         return -1;
     }
-    send(sock , hello , strlen(hello) , 0 );
+//    send(sock , hello, strlen(hello), 0);
+    send(sock, argv[1], strlen(argv[1]), 0);
     printf("Hello message sent\n");
-    read(sock, buffer, 1024);
-    printf("%s\n",buffer );
+    read(sock, returnedJSONData, default_buffer_size);
+    printf("%s\n", returnedJSONData);
     return 0;
 }
