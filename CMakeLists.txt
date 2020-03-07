@@ -3,4 +3,5 @@ project(RoadRecovery_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RoadRecovery_CPP main.cpp soTest.cpp)
+add_executable(RoadRecovery_CPP main.cpp)
+
