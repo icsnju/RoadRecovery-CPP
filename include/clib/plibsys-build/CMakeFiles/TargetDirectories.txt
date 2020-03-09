@@ -1,0 +1,15 @@
+/Users/lind/Desktop/clib/plibsys-build/CMakeFiles/test.dir
+/Users/lind/Desktop/clib/plibsys-build/CMakeFiles/rebuild_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/CMakeFiles/edit_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/CMakeFiles/package_source.dir
+/Users/lind/Desktop/clib/plibsys-build/CMakeFiles/package.dir
+/Users/lind/Desktop/clib/plibsys-build/src/CMakeFiles/test.dir
+/Users/lind/Desktop/clib/plibsys-build/src/CMakeFiles/rebuild_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/src/CMakeFiles/edit_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/src/CMakeFiles/package_source.dir
+/Users/lind/Desktop/clib/plibsys-build/src/CMakeFiles/package.dir
+/Users/lind/Desktop/clib/plibsys-build/tests/CMakeFiles/test.dir
+/Users/lind/Desktop/clib/plibsys-build/tests/CMakeFiles/rebuild_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/tests/CMakeFiles/edit_cache.dir
+/Users/lind/Desktop/clib/plibsys-build/tests/CMakeFiles/package_source.dir
+/Users/lind/Desktop/clib/plibsys-build/tests/CMakeFiles/package.dir

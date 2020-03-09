@@ -3,5 +3,10 @@ project(RoadRecovery_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RoadRecovery_CPP main.cpp)
+file(GLOB LIBRARIES "lib/*.dylib")
+
+include_directories(include/clib/plibsys/src/)
+include_directories(include/clib/plibsys-build/)
+add_executable(RoadRecovery_CPP client.cpp client.h)
+target_link_libraries(RoadRecovery_CPP ${LIBRARIES})
 

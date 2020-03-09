@@ -1,0 +1,698 @@
+Start testing: Mar 08 19:16 CST
+----------------------------------------------------------
+1/28 Testing: patomic_test
+1/28 Test: patomic_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/patomic_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"patomic_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: patomic_general_test
+Test passed
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"patomic_test" end time: Mar 08 19:16 CST
+"patomic_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/28 Testing: pcondvariable_test
+2/28 Test: pcondvariable_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pcondvariable_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pcondvariable_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pcondvariable_nomem_test
+** Error: PCondVariable::p_cond_variable_new: failed to allocate memory **
+Running test case: pcondvariable_bad_input_test
+Running test case: pcondvariable_general_test
+Test passed
+<end of output>
+Test time =   4.57 sec
+----------------------------------------------------------
+Test Passed.
+"pcondvariable_test" end time: Mar 08 19:16 CST
+"pcondvariable_test" time elapsed: 00:00:04
+----------------------------------------------------------
+
+3/28 Testing: pcryptohash_test
+3/28 Test: pcryptohash_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pcryptohash_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pcryptohash_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pcryptohash_nomem_test
+** Error: PCryptoHash::p_crypto_hash_new: failed to allocate memory **
+** Error: PCryptoHash::p_crypto_hash_new: failed to allocate memory **
+** Error: PCryptoHash::p_crypto_hash_new: failed to allocate memory **
+Running test case: pcryptohash_invalid_test
+Running test case: md5_test
+Running test case: sha1_test
+Running test case: sha2_224_test
+Running test case: sha2_256_test
+Running test case: sha2_384_test
+Running test case: sha2_512_test
+Running test case: sha3_224_test
+Running test case: sha3_256_test
+Running test case: sha3_384_test
+Running test case: sha3_512_test
+Running test case: gost3411_94_test
+Test passed
+<end of output>
+Test time =   0.81 sec
+----------------------------------------------------------
+Test Passed.
+"pcryptohash_test" end time: Mar 08 19:16 CST
+"pcryptohash_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/28 Testing: perror_test
+4/28 Test: perror_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/perror_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"perror_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: perror_nomem_test
+Running test case: perror_invalid_test
+Running test case: perror_general_test
+Test passed
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"perror_test" end time: Mar 08 19:16 CST
+"perror_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/28 Testing: pdir_test
+5/28 Test: pdir_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pdir_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pdir_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pdir_nomem_test
+Running test case: pdir_general_test
+Test passed
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"pdir_test" end time: Mar 08 19:16 CST
+"pdir_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/28 Testing: pfile_test
+6/28 Test: pfile_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pfile_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pfile_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pfile_general_test
+Test passed
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"pfile_test" end time: Mar 08 19:16 CST
+"pfile_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/28 Testing: phashtable_test
+7/28 Test: phashtable_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/phashtable_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"phashtable_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: phashtable_nomem_test
+** Error: PHashTable::p_hash_table_new: failed(1) to allocate memory **
+** Error: PHashTable::p_hash_table_insert: failed to allocate memory **
+Running test case: phashtable_invalid_test
+Running test case: phashtable_general_test
+Running test case: phashtable_stress_test
+Test passed
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"phashtable_test" end time: Mar 08 19:16 CST
+"phashtable_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/28 Testing: pinifile_test
+8/28 Test: pinifile_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pinifile_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pinifile_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pinifile_nomem_test
+Running test case: pinifile_bad_input_test
+Running test case: pinifile_read_test
+Test passed
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"pinifile_test" end time: Mar 08 19:16 CST
+"pinifile_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/28 Testing: plibraryloader_test
+9/28 Test: plibraryloader_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/plibraryloader_test" "--" "/Users/lind/Desktop/clib/plibsys-build/libplibsys.0.dylib"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"plibraryloader_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: plibraryloader_nomem_test
+** Error: PLibraryLoader::p_library_loader_new: dlopen() failed **
+** Error: PLibraryLoader::p_library_loader_new: failed to allocate memory **
+Running test case: plibraryloader_general_test
+Test passed
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"plibraryloader_test" end time: Mar 08 19:16 CST
+"plibraryloader_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/28 Testing: plist_test
+10/28 Test: plist_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/plist_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"plist_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: plist_nomem_test
+** Error: PList::p_list_append: failed to allocate memory **
+** Error: PList::p_list_prepend: failed to allocate memory **
+Running test case: plist_invalid_test
+Running test case: plist_general_test
+Test passed
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"plist_test" end time: Mar 08 19:16 CST
+"plist_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/28 Testing: pmacros_test
+11/28 Test: pmacros_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pmacros_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pmacros_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pmacros_general_test
+** Warning: Test warning output **
+** Error: Test error output **
+** Debug: Test debug output **
+** Debug: Likely condition triggered **
+Test passed
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"pmacros_test" end time: Mar 08 19:16 CST
+"pmacros_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/28 Testing: pmain_test
+12/28 Test: pmain_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pmain_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pmain_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pmain_general_test
+Running test case: pmain_double_test
+** Error: MAIN::p_libsys_init_full: failed to initialize memory table **
+Running test case: pmain_vtable_test
+Test passed
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"pmain_test" end time: Mar 08 19:16 CST
+"pmain_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/28 Testing: pmem_test
+13/28 Test: pmem_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pmem_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pmem_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pmem_bad_input_test
+Running test case: pmem_general_test
+Test passed
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"pmem_test" end time: Mar 08 19:16 CST
+"pmem_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/28 Testing: pmutex_test
+14/28 Test: pmutex_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pmutex_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pmutex_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pmutex_nomem_test
+** Error: PMutex::p_mutex_new: failed to allocate memory **
+Running test case: pmutex_bad_input_test
+Running test case: pmutex_general_test
+Test passed
+<end of output>
+Test time =   1.85 sec
+----------------------------------------------------------
+Test Passed.
+"pmutex_test" end time: Mar 08 19:16 CST
+"pmutex_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/28 Testing: pprocess_test
+15/28 Test: pprocess_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pprocess_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pprocess_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pprocess_general_test
+Test passed
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"pprocess_test" end time: Mar 08 19:16 CST
+"pprocess_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/28 Testing: prwlock_test
+16/28 Test: prwlock_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/prwlock_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"prwlock_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: prwlock_nomem_test
+** Error: PRWLock::p_rwlock_new: failed to allocate memory **
+Running test case: prwlock_bad_input_test
+Running test case: prwlock_general_test
+Test passed
+<end of output>
+Test time =  10.48 sec
+----------------------------------------------------------
+Test Passed.
+"prwlock_test" end time: Mar 08 19:16 CST
+"prwlock_test" time elapsed: 00:00:10
+----------------------------------------------------------
+
+17/28 Testing: psemaphore_test
+17/28 Test: psemaphore_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/psemaphore_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"psemaphore_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: psemaphore_nomem_test
+Running test case: psemaphore_general_test
+Running test case: psemaphore_thread_test
+Test passed
+<end of output>
+Test time =   2.04 sec
+----------------------------------------------------------
+Test Passed.
+"psemaphore_test" end time: Mar 08 19:16 CST
+"psemaphore_test" time elapsed: 00:00:02
+----------------------------------------------------------
+
+18/28 Testing: pshmbuffer_test
+18/28 Test: pshmbuffer_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pshmbuffer_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pshmbuffer_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pshmbuffer_nomem_test
+Running test case: pshmbuffer_bad_input_test
+Running test case: pshmbuffer_general_test
+Running test case: pshmbuffer_thread_test
+Test passed
+<end of output>
+Test time =   5.46 sec
+----------------------------------------------------------
+Test Passed.
+"pshmbuffer_test" end time: Mar 08 19:16 CST
+"pshmbuffer_test" time elapsed: 00:00:05
+----------------------------------------------------------
+
+19/28 Testing: pshm_test
+19/28 Test: pshm_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pshm_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pshm_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: pshm_nomem_test
+Running test case: pshm_invalid_test
+Running test case: pshm_general_test
+Running test case: pshm_thread_test
+Test passed
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"pshm_test" end time: Mar 08 19:16 CST
+"pshm_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/28 Testing: psocket_test
+20/28 Test: psocket_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/psocket_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"psocket_test" start time: Mar 08 19:16 CST
+Output:
+----------------------------------------------------------
+Running test case: psocket_nomem_test
+Running test case: psocket_bad_input_test
+Running test case: psocket_general_udp_test
+** Warning: PSocket::p_socket_set_keepalive: setsockopt() with SO_KEEPALIVE failed **
+Running test case: psocket_general_tcp_test
+** Warning: PSocket::p_socket_set_keepalive: setsockopt() with SO_KEEPALIVE failed **
+Running test case: psocket_udp_test
+Running test case: psocket_tcp_test
+Running test case: psocket_shutdown_test
+Test passed
+<end of output>
+Test time =  31.50 sec
+----------------------------------------------------------
+Test Passed.
+"psocket_test" end time: Mar 08 19:17 CST
+"psocket_test" time elapsed: 00:00:31
+----------------------------------------------------------
+
+21/28 Testing: psocketaddress_test
+21/28 Test: psocketaddress_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/psocketaddress_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"psocketaddress_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: psocketaddress_nomem_test
+** Warning: PSocketAddress::p_socket_address_to_native: invalid buffer size for IPv4 **
+** Error: PSocketAddress::p_socket_address_to_native: invalid buffer size for IPv6 **
+** Error: PSocketAddress::p_socket_address_new: failed to allocate memory **
+** Error: PSocketAddress::p_socket_address_new_any: failed to allocate memory **
+** Error: PSocketAddress::p_socket_address_new_loopback: failed to allocate memory **
+** Warning: PSocketAddress::p_socket_address_new_from_native: invalid IPv4 native size **
+** Warning: PSocketAddress::p_socket_address_new_from_native: invalid IPv6 native size **
+Running test case: psocketaddress_bad_input_test
+Running test case: psocketaddress_general_test
+Test passed
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"psocketaddress_test" end time: Mar 08 19:17 CST
+"psocketaddress_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/28 Testing: pspinlock_test
+22/28 Test: pspinlock_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pspinlock_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pspinlock_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: pspinlock_nomem_test
+** Error: PSpinLock::p_spinlock_new: failed to allocate memory **
+Running test case: pspinlock_bad_input_test
+Running test case: pspinlock_general_test
+Test passed
+<end of output>
+Test time =   1.90 sec
+----------------------------------------------------------
+Test Passed.
+"pspinlock_test" end time: Mar 08 19:17 CST
+"pspinlock_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/28 Testing: pstdarg_test
+23/28 Test: pstdarg_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pstdarg_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pstdarg_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: pstdarg_general_test
+** Debug: Copy of arguments **
+** Debug: Unstacking a copy of all the arguments **
+** Debug: Unstacking a pint8 **
+** Debug: Unstacking a puint8 **
+** Debug: Unstacking a pint16 **
+** Debug: Unstacking a puint16 **
+** Debug: Unstacking a pint32 **
+** Debug: Unstacking a puint32 **
+** Debug: Unstacking a pint64 **
+** Debug: Unstacking a puint64 **
+** Debug: Unstacking a pint **
+** Debug: Unstacking a puint **
+** Debug: Unstacking a pshort **
+** Debug: Unstacking a plong **
+** Debug: Unstacking a pchar **
+** Debug: Unstacking a ppointer **
+** Debug: Unstacking a pfloat **
+** Debug: Unstacking a pdouble **
+** Debug: Unstacking a pdouble **
+** Debug: Unstacking a pfloat **
+** Debug: Unstacking a ppointer **
+** Debug: Unstacking a pchar **
+** Debug: Unstacking a plong **
+** Debug: Unstacking a pshort **
+** Debug: Unstacking a puint **
+** Debug: Unstacking a pint **
+** Debug: Unstacking a puint64 **
+** Debug: Unstacking a pint64 **
+** Debug: Unstacking a puint32 **
+** Debug: Unstacking a pint32 **
+** Debug: Unstacking a puint16 **
+** Debug: Unstacking a pint16 **
+** Debug: Unstacking a puint8 **
+** Debug: Unstacking a pint8 **
+** Debug: Unstacking first part of arguments **
+** Debug: Unstacking a pint8 **
+** Debug: Unstacking a puint8 **
+** Debug: Unstacking a pint16 **
+** Debug: Unstacking a puint16 **
+** Debug: Unstacking a pint32 **
+** Debug: Unstacking a puint32 **
+** Debug: Unstacking a pint64 **
+** Debug: Unstacking a puint64 **
+** Debug: Unstacking a pint **
+** Debug: Unstacking a puint **
+** Debug: Unstacking a pshort **
+** Debug: Unstacking a plong **
+** Debug: Unstacking a pchar **
+** Debug: Unstacking a ppointer **
+** Debug: Unstacking a pfloat **
+** Debug: Unstacking a pdouble **
+** Debug: Copy of arguments at current unstack state, i.e. in the middle **
+** Debug: Unstacking second part of the arguments **
+** Debug: Unstacking a pdouble **
+** Debug: Unstacking a pfloat **
+** Debug: Unstacking a ppointer **
+** Debug: Unstacking a pchar **
+** Debug: Unstacking a plong **
+** Debug: Unstacking a pshort **
+** Debug: Unstacking a puint **
+** Debug: Unstacking a pint **
+** Debug: Unstacking a puint64 **
+** Debug: Unstacking a pint64 **
+** Debug: Unstacking a puint32 **
+** Debug: Unstacking a pint32 **
+** Debug: Unstacking a puint16 **
+** Debug: Unstacking a pint16 **
+** Debug: Unstacking a puint8 **
+** Debug: Unstacking a pint8 **
+** Debug: Unstacking second part of arguments **
+** Debug: Unstacking a pdouble **
+** Debug: Unstacking a pfloat **
+** Debug: Unstacking a ppointer **
+** Debug: Unstacking a pchar **
+** Debug: Unstacking a plong **
+** Debug: Unstacking a pshort **
+** Debug: Unstacking a puint **
+** Debug: Unstacking a pint **
+** Debug: Unstacking a puint64 **
+** Debug: Unstacking a pint64 **
+** Debug: Unstacking a puint32 **
+** Debug: Unstacking a pint32 **
+** Debug: Unstacking a puint16 **
+** Debug: Unstacking a pint16 **
+** Debug: Unstacking a puint8 **
+** Debug: Unstacking a pint8 **
+Test passed
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"pstdarg_test" end time: Mar 08 19:17 CST
+"pstdarg_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/28 Testing: pstring_test
+24/28 Test: pstring_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/pstring_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"pstring_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: pstring_nomem_test
+Running test case: pstring_strdup_test
+Running test case: pstring_strchomp_test
+Running test case: pstring_strtok_test
+Running test case: pstring_strtod_test
+Test passed
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"pstring_test" end time: Mar 08 19:17 CST
+"pstring_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/28 Testing: ptimeprofiler_test
+25/28 Test: ptimeprofiler_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/ptimeprofiler_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"ptimeprofiler_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: ptimeprofiler_nomem_test
+** Error: PTimeProfiler: failed to allocate memory **
+Running test case: ptimeprofiler_bad_input_test
+Running test case: ptimeprofiler_general_test
+Test passed
+<end of output>
+Test time =   1.80 sec
+----------------------------------------------------------
+Test Passed.
+"ptimeprofiler_test" end time: Mar 08 19:17 CST
+"ptimeprofiler_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+26/28 Testing: ptree_test
+26/28 Test: ptree_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/ptree_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"ptree_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: ptree_nomem_test
+** Error: PTree::p_tree_new_full: failed to allocate memory **
+** Error: PTree::p_tree_new_full: failed to allocate memory **
+** Error: PTree::p_tree_new_full: failed to allocate memory **
+Running test case: ptree_invalid_test
+Running test case: ptree_general_test
+Running test case: ptree_stress_test
+Test passed
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"ptree_test" end time: Mar 08 19:17 CST
+"ptree_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+27/28 Testing: ptypes_test
+27/28 Test: ptypes_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/ptypes_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"ptypes_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: ptypes_general_test
+Running test case: ptypes_pointers_convert_test
+Running test case: ptypes_min_max_test
+Running test case: ptypes_modifiers_test
+0x100
+0xffffffffffffff00
+0x200
+0xfffffffffffffe00
+0x400
+0xfffffc00
+0x800
+0xfffff800
+0x1000
+0xfffffffffffff000
+0x2000
+Running test case: ptypes_formats_test
+-256
+256
+512
+-512
+1024
+-1024
+2048
+-2048
+4096
+-4096
+8192
+Running test case: ptypes_host_network_test
+Test passed
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"ptypes_test" end time: Mar 08 19:17 CST
+"ptypes_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/28 Testing: puthread_test
+28/28 Test: puthread_test
+Command: "/Users/lind/Desktop/clib/plibsys-build/puthread_test"
+Directory: /Users/lind/Desktop/clib/plibsys-build/tests
+"puthread_test" start time: Mar 08 19:17 CST
+Output:
+----------------------------------------------------------
+Running test case: puthread_nomem_test
+** Error: PUThread::p_uthread_create_internal: failed to allocate memory **
+** Error: PUThread::p_uthread_create_internal: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+** Error: PUThread::p_uthread_current: failed to allocate memory **
+** Error: PUThread::p_uthread_local_new: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+** Error: PUThread::p_uthread_current: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+** Error: PUThread::pp_uthread_get_tls_key: failed to allocate memory **
+Running test case: puthread_bad_input_test
+** Warning: PUThread::p_uthread_exit: p_uthread_exit() cannot be called from an unknown thread **
+Running test case: puthread_general_test
+Running test case: puthread_nonjoinable_test
+Running test case: puthread_tls_test
+Test passed
+<end of output>
+Test time =  18.52 sec
+----------------------------------------------------------
+Test Passed.
+"puthread_test" end time: Mar 08 19:17 CST
+"puthread_test" time elapsed: 00:00:18
+----------------------------------------------------------
+
+End testing: Mar 08 19:17 CST
